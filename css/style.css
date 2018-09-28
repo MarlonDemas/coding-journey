@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+body {
+    background-color: aqua;
+}
+
+#introduction p {
+    display: block;
+    width: 40%;
+    margin: auto;
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black,
+                -2px -2px 2px black; 
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    background-color: yellow;
+    margin: 0 40% 10px 40%;
+    box-shadow: 2px 2px 2px black,
+                -2px -2px 2px black; 
+    border-radius: 10px;
+}
+
+.myList {
+    margin-bottom: 3%;
+}
+
+.myLinks nav {
+    text-align: center;
+    padding-bottom: 8%;
+}
+a img {
+    box-shadow: 2px 2px 2px black,
+                -2px -2px 2px black;
+    border-radius: 10px;
+    transition: transform 2s;
+}
+
+a img:hover {
+    transform: scale(1.5);
+}
+
+.left-side {
+    display: block;
+    /* float: left; */
+    position: absolute;
+    z-index: -1;
+
+}
+
+.right-side {
+    display: block;
+    /* float: right; */
+    position: absolute;
+    right: 10px;
+    z-index: -1;
+}
+
+.footer {
+    display: block;
+    width: 90%;
+    margin: auto;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black,
+                -2px -2px 2px black; 
+}
